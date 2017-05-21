@@ -1,4 +1,3 @@
-#include <stdint.h>
 #include "xl_320.h"
 
 //http://support.robotis.com/en/product/dynamixel/xl-320/xl-320.htm

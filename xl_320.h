@@ -1,5 +1,6 @@
-#ifndef XL_320_H
-#define	XL_320_H
+#pragma once
+
+#include <stdint.h>
 
 #define XL_320_HEADER 0xFFFFFD00
 #define BROADCAST_ID 0xFE
@@ -167,5 +168,3 @@ void set_ID_servo(XL_320_servo_t * servo_ptr, uint8_t new_ID);
 void disable_power_servo(XL_320_servo_t * servo_ptr, uint8_t now);
 //used to re enable the servo after a disable
 void enable_power_servo(XL_320_servo_t * servo_ptr, uint8_t now);
-
-#endif	/* XL_320 */
